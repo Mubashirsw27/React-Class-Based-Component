@@ -35,4 +35,15 @@ Except for render(), All of the above methods are called respectively but only i
   <li>getSnapshotBeforeUpdate()</li>
   <li>componentDidUpdate()</li>
 </ul>
-<p>The getDrivedStateFromProps() method will be called first as this is natural place to set State</p>
+<p>The getDrivedStateFromProps() method will be called first as this is natural place to set State. But again render() component is compulsory to render the code.</p>
+
+<h3>(3) Unmounting</h3>
+<p>This phase in the lifecycle is when any component is removed from the DOM. By Default the Unmounting has only one method that gets called when a component is unmounted: - </p>
+<ul>
+  <li>
+  componentWillUnmount()
+  </li>
+</ul>
+
+
+Don't Forget to Star this Repo 😉
